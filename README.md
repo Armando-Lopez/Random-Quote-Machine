@@ -1,5 +1,5 @@
 # Page EndPoint 
-    [https://random-quote-machine-nine.now.sh/](https://random-quote-machine-nine.now.sh/)
+[https://random-quote-machine-nine.now.sh/](https://random-quote-machine-nine.now.sh/)
     
     
     
