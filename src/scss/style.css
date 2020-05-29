@@ -1,0 +1,118 @@
+.container {
+  position: relative;
+  background: #5e239d;
+  height: 50vh;
+}
+
+.wave {
+  position: absolute;
+  height: 250px;
+  width: 100%;
+  background: #5e239d;
+  bottom: 0;
+}
+
+.wave::before,
+.wave::after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 100% 50%;
+}
+
+.wave::before {
+  width: 55%;
+  height: 109%;
+  background-color: #f4f4ed;
+  right: -1.5%;
+  top: 60%;
+}
+
+.wave::after {
+  width: 55%;
+  height: 100%;
+  background-color: #5e239d;
+  left: -1.5%;
+  top: 40%;
+}
+
+.loading {
+  text-align: center;
+  text-shadow: 3px 3px 5px #f61067;
+}
+
+.button {
+  display: block;
+  margin: 1em auto;
+  align-items: center;
+  padding: 1em;
+  font-size: 1em;
+  font-weight: bold;
+  color: #f4f4ed;
+  background-color: #f61067;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 3px 3px 10px #f4f4ed;
+  cursor: pointer;
+  transition-duration: 0.7s;
+}
+
+.button:hover {
+  transform: scale(1.1);
+}
+
+.button:active {
+  transform: scale(0.9);
+  background-color: #5e239d;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: #f4f4ed;
+  overflow: hidden;
+}
+
+#quote-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  max-width: 600px;
+  padding: 1.3em 3em;
+  border-radius: 10px 5px 20px 15px;
+  background-color: blanchedalmond;
+  box-shadow: 5px 5px 15px black;
+  z-index: 5;
+}
+
+#quote-box #text {
+  font-size: 1.5em;
+  margin: 1em 0 0.5em;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+#quote-box #author {
+  text-align: right;
+  margin-right: 2em;
+}
+
+#quote-box #tweet-quote {
+  text-decoration: none;
+  font-weight: bold;
+  color: blanchedalmond;
+  padding: 0.4em 1em;
+  background-color: #5e239d;
+  border-radius: 30px;
+}
+/*# sourceMappingURL=style.css.map */
